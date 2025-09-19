@@ -2,23 +2,14 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Site com Música</title>
+  <title>Música no GitHub Pages</title>
 </head>
 <body>
-  <h1>🎶 Bem-vindo ao meu site!</h1>
-  <p>A música começa sozinha em segundo plano.</p>
-
-  <audio id="bg-music" autoplay loop>
+  <h1>🎶 Tocando música do GitHub Pages 🎶</h1>
+  
+  <audio controls autoplay>
     <source src="musica.mp3" type="audio/mpeg">
     Seu navegador não suporta áudio.
   </audio>
-
-  <script>
-    const audio = document.getElementById("bg-music");
-    audio.volume = 0;
-    setTimeout(() => {
-      audio.volume = 1; // aumenta depois de 1 segundo
-    }, 1000);
-  </script>
 </body>
 </html>
